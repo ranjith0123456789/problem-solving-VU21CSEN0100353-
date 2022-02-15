@@ -1,0 +1,11 @@
+
+#include<stdio.h>
+int main()
+{
+	float radius,height,volume;
+	printf("enter the radius and height of sphere");
+	scanf("%f%f",&radius,&height);
+	volume=(1.33)*(3.14*radius*radius*height);
+	printf("the volme of sphere is %.2f",volume);
+	return 0;
+}
