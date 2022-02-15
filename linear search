@@ -1,0 +1,28 @@
+
+#include<stdio.h>
+int main()
+{
+ int a[100],requiredelement,size,i,count;
+ printf("Enter the size of the array:");
+ scanf("%d",&size);
+ printf("Enter the %d values (seperated by space):",size);
+ for(i=0;i<size;i++)
+ {
+ scanf("%d",&a[i]);
+ }
+ printf("enter the value you want to search: ");
+ scanf("%d",&requiredelement);
+ for(i=0;i<size;i++)
+ {
+ if(a[i]==requiredelement)
+ {
+ printf("%d is at position %d",requiredelement,i+1);
+ break;
+ 
+ }
+ }
+ if(i==size)
+ {
+ printf("required element not found in the array");
+ }
+}
