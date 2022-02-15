@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+ int i,length;
+ char str[50];
+ printf("Enter the string to be reversed\n");
+ gets(str);
+ length=strlen(str)-1;
+ printf("The string reversed is \n");
+ for(i=length;i>=0;i--)
+ {
+ printf("%c",str[i]);
+ }
+}
