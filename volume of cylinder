@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+	int base ,height,volume;
+	printf("enter the base and height of cylinder");
+	scanf("%d%d",&base,&height);
+	volume=base*height;
+	printf("the volume of cylinder is %d",volume);
+	return 0;
+}
